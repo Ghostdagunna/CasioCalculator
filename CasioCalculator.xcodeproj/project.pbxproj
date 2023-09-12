@@ -1,0 +1,590 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		932168DA2AB1010700154730 /* CasioCalculatorApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 932168D92AB1010700154730 /* CasioCalculatorApp.swift */; };
+		932168DC2AB1010700154730 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 932168DB2AB1010700154730 /* ContentView.swift */; };
+		932168DE2AB1010B00154730 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 932168DD2AB1010B00154730 /* Assets.xcassets */; };
+		932168E12AB1010B00154730 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 932168E02AB1010B00154730 /* Preview Assets.xcassets */; };
+		932168EB2AB1010B00154730 /* CasioCalculatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 932168EA2AB1010B00154730 /* CasioCalculatorTests.swift */; };
+		932168F52AB1010B00154730 /* CasioCalculatorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 932168F42AB1010B00154730 /* CasioCalculatorUITests.swift */; };
+		932168F72AB1010B00154730 /* CasioCalculatorUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 932168F62AB1010B00154730 /* CasioCalculatorUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		932168E72AB1010B00154730 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 932168CE2AB1010700154730 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 932168D52AB1010700154730;
+			remoteInfo = CasioCalculator;
+		};
+		932168F12AB1010B00154730 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 932168CE2AB1010700154730 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 932168D52AB1010700154730;
+			remoteInfo = CasioCalculator;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		932168D62AB1010700154730 /* CasioCalculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CasioCalculator.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		932168D92AB1010700154730 /* CasioCalculatorApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CasioCalculatorApp.swift; sourceTree = "<group>"; };
+		932168DB2AB1010700154730 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		932168DD2AB1010B00154730 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		932168E02AB1010B00154730 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		932168E62AB1010B00154730 /* CasioCalculatorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CasioCalculatorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		932168EA2AB1010B00154730 /* CasioCalculatorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CasioCalculatorTests.swift; sourceTree = "<group>"; };
+		932168F02AB1010B00154730 /* CasioCalculatorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CasioCalculatorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		932168F42AB1010B00154730 /* CasioCalculatorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CasioCalculatorUITests.swift; sourceTree = "<group>"; };
+		932168F62AB1010B00154730 /* CasioCalculatorUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CasioCalculatorUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		932168D32AB1010700154730 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		932168E32AB1010B00154730 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		932168ED2AB1010B00154730 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		932168CD2AB1010700154730 = {
+			isa = PBXGroup;
+			children = (
+				932168D82AB1010700154730 /* CasioCalculator */,
+				932168E92AB1010B00154730 /* CasioCalculatorTests */,
+				932168F32AB1010B00154730 /* CasioCalculatorUITests */,
+				932168D72AB1010700154730 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		932168D72AB1010700154730 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				932168D62AB1010700154730 /* CasioCalculator.app */,
+				932168E62AB1010B00154730 /* CasioCalculatorTests.xctest */,
+				932168F02AB1010B00154730 /* CasioCalculatorUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		932168D82AB1010700154730 /* CasioCalculator */ = {
+			isa = PBXGroup;
+			children = (
+				932168D92AB1010700154730 /* CasioCalculatorApp.swift */,
+				932168DB2AB1010700154730 /* ContentView.swift */,
+				932168DD2AB1010B00154730 /* Assets.xcassets */,
+				932168DF2AB1010B00154730 /* Preview Content */,
+			);
+			path = CasioCalculator;
+			sourceTree = "<group>";
+		};
+		932168DF2AB1010B00154730 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				932168E02AB1010B00154730 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		932168E92AB1010B00154730 /* CasioCalculatorTests */ = {
+			isa = PBXGroup;
+			children = (
+				932168EA2AB1010B00154730 /* CasioCalculatorTests.swift */,
+			);
+			path = CasioCalculatorTests;
+			sourceTree = "<group>";
+		};
+		932168F32AB1010B00154730 /* CasioCalculatorUITests */ = {
+			isa = PBXGroup;
+			children = (
+				932168F42AB1010B00154730 /* CasioCalculatorUITests.swift */,
+				932168F62AB1010B00154730 /* CasioCalculatorUITestsLaunchTests.swift */,
+			);
+			path = CasioCalculatorUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		932168D52AB1010700154730 /* CasioCalculator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 932168FA2AB1010B00154730 /* Build configuration list for PBXNativeTarget "CasioCalculator" */;
+			buildPhases = (
+				932168D22AB1010700154730 /* Sources */,
+				932168D32AB1010700154730 /* Frameworks */,
+				932168D42AB1010700154730 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CasioCalculator;
+			productName = CasioCalculator;
+			productReference = 932168D62AB1010700154730 /* CasioCalculator.app */;
+			productType = "com.apple.product-type.application";
+		};
+		932168E52AB1010B00154730 /* CasioCalculatorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 932168FD2AB1010B00154730 /* Build configuration list for PBXNativeTarget "CasioCalculatorTests" */;
+			buildPhases = (
+				932168E22AB1010B00154730 /* Sources */,
+				932168E32AB1010B00154730 /* Frameworks */,
+				932168E42AB1010B00154730 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				932168E82AB1010B00154730 /* PBXTargetDependency */,
+			);
+			name = CasioCalculatorTests;
+			productName = CasioCalculatorTests;
+			productReference = 932168E62AB1010B00154730 /* CasioCalculatorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		932168EF2AB1010B00154730 /* CasioCalculatorUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 932169002AB1010B00154730 /* Build configuration list for PBXNativeTarget "CasioCalculatorUITests" */;
+			buildPhases = (
+				932168EC2AB1010B00154730 /* Sources */,
+				932168ED2AB1010B00154730 /* Frameworks */,
+				932168EE2AB1010B00154730 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				932168F22AB1010B00154730 /* PBXTargetDependency */,
+			);
+			name = CasioCalculatorUITests;
+			productName = CasioCalculatorUITests;
+			productReference = 932168F02AB1010B00154730 /* CasioCalculatorUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		932168CE2AB1010700154730 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					932168D52AB1010700154730 = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+					932168E52AB1010B00154730 = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = 932168D52AB1010700154730;
+					};
+					932168EF2AB1010B00154730 = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = 932168D52AB1010700154730;
+					};
+				};
+			};
+			buildConfigurationList = 932168D12AB1010700154730 /* Build configuration list for PBXProject "CasioCalculator" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 932168CD2AB1010700154730;
+			productRefGroup = 932168D72AB1010700154730 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				932168D52AB1010700154730 /* CasioCalculator */,
+				932168E52AB1010B00154730 /* CasioCalculatorTests */,
+				932168EF2AB1010B00154730 /* CasioCalculatorUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		932168D42AB1010700154730 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				932168E12AB1010B00154730 /* Preview Assets.xcassets in Resources */,
+				932168DE2AB1010B00154730 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		932168E42AB1010B00154730 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		932168EE2AB1010B00154730 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		932168D22AB1010700154730 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				932168DC2AB1010700154730 /* ContentView.swift in Sources */,
+				932168DA2AB1010700154730 /* CasioCalculatorApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		932168E22AB1010B00154730 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				932168EB2AB1010B00154730 /* CasioCalculatorTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		932168EC2AB1010B00154730 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				932168F72AB1010B00154730 /* CasioCalculatorUITestsLaunchTests.swift in Sources */,
+				932168F52AB1010B00154730 /* CasioCalculatorUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		932168E82AB1010B00154730 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 932168D52AB1010700154730 /* CasioCalculator */;
+			targetProxy = 932168E72AB1010B00154730 /* PBXContainerItemProxy */;
+		};
+		932168F22AB1010B00154730 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 932168D52AB1010700154730 /* CasioCalculator */;
+			targetProxy = 932168F12AB1010B00154730 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		932168F82AB1010B00154730 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		932168F92AB1010B00154730 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		932168FB2AB1010B00154730 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"CasioCalculator/Preview Content\"";
+				DEVELOPMENT_TEAM = 3BRL7K52S2;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = jordanmck.CasioCalculator;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		932168FC2AB1010B00154730 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"CasioCalculator/Preview Content\"";
+				DEVELOPMENT_TEAM = 3BRL7K52S2;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = jordanmck.CasioCalculator;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		932168FE2AB1010B00154730 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3BRL7K52S2;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = jordanmck.CasioCalculatorTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CasioCalculator.app/CasioCalculator";
+			};
+			name = Debug;
+		};
+		932168FF2AB1010B00154730 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3BRL7K52S2;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = jordanmck.CasioCalculatorTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CasioCalculator.app/CasioCalculator";
+			};
+			name = Release;
+		};
+		932169012AB1010B00154730 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3BRL7K52S2;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = jordanmck.CasioCalculatorUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CasioCalculator;
+			};
+			name = Debug;
+		};
+		932169022AB1010B00154730 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3BRL7K52S2;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = jordanmck.CasioCalculatorUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CasioCalculator;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		932168D12AB1010700154730 /* Build configuration list for PBXProject "CasioCalculator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				932168F82AB1010B00154730 /* Debug */,
+				932168F92AB1010B00154730 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		932168FA2AB1010B00154730 /* Build configuration list for PBXNativeTarget "CasioCalculator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				932168FB2AB1010B00154730 /* Debug */,
+				932168FC2AB1010B00154730 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		932168FD2AB1010B00154730 /* Build configuration list for PBXNativeTarget "CasioCalculatorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				932168FE2AB1010B00154730 /* Debug */,
+				932168FF2AB1010B00154730 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		932169002AB1010B00154730 /* Build configuration list for PBXNativeTarget "CasioCalculatorUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				932169012AB1010B00154730 /* Debug */,
+				932169022AB1010B00154730 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 932168CE2AB1010700154730 /* Project object */;
+}
